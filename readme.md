@@ -1,4 +1,6 @@
-# Defragr
+# Defragr (Plugin format)
+
+Defragr movement code ported to UE4.26 as a plugin. The following README is unmodified.
 
 Precision movement FPS ported off the Quake 3 series of movement physics, most notibly the Defrag and CPMA mods for Quake 3. Defragr includes a near direct port of idTech3's physics for the player.
 
