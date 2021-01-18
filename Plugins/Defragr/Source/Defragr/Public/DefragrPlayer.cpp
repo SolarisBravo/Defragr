@@ -101,11 +101,6 @@ void ADefragrPlayer::Tick(float DeltaTime)
 	// of the player for easy access.
 	ForwardVector = PlayerForwardRefComponent->GetForwardVector();
 	RightVector   = PlayerForwardRefComponent->GetRightVector();
-
-	if(Health <= 0)
-	{
-		Health = 0;
-	}
 }
 
 void ADefragrPlayer::UpdateViewingAngles()

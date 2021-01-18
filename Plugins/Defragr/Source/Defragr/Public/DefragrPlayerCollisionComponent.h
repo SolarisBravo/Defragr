@@ -31,7 +31,7 @@ public:
 public:
 	/** The amount the collider has to travel before detecting the ground */
 	UPROPERTY(Category = "General Collision", EditAnywhere, BlueprintReadWrite)
-	float GroundTraceDistance = 0.25f;
+	float GroundTraceDistance = 0.35f;
 
 	UPROPERTY(Category = "General Collision", EditAnywhere, BlueprintReadWrite)
 	float MinWalkNormal = 0.7f;
@@ -41,7 +41,7 @@ public:
 
 	// The amount of 'skin' the player has
 	UPROPERTY(Category = "General Collision", EditAnywhere, BlueprintReadWrite)
-	float Underclip = 0.1f;
+	float Underclip = 0.15f;
 
 	UPROPERTY(Category = "General Collision", EditAnywhere, BlueprintReadWrite)
 	int32 MaxClipPlanes = 5;

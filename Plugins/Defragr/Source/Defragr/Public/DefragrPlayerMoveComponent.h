@@ -56,15 +56,15 @@ public:
 public:
 	/** Custom gravity scale. Gravity is multiplied by this amount for the character */
 	UPROPERTY(Category = "General Movement", EditAnywhere, BlueprintReadWrite)
-	float Gravity = 20.f;
+	float Gravity = 800.f;
 
 	/** Amount of jumping force the player has, does not represent absolute jump height */
 	UPROPERTY(Category = "General Movement", EditAnywhere, BlueprintReadWrite)
-	float JumpForce = 8.f;
+	float JumpForce = 635.f;
 
 	/** Ground friction */
 	UPROPERTY(Category = "General Movement", EditAnywhere, BlueprintReadWrite)
-	float Friction = 6.f;
+	float Friction = 8.f;
 
 	
 
@@ -74,7 +74,7 @@ public:
 
 	/** The maximum speed the player can travel while on the ground */
 	UPROPERTY(Category = "Ground Movement", EditAnywhere, BlueprintReadWrite)
-	float GroundMaxSpeed = 8.f;
+	float GroundMaxSpeed = 320.f;
 
 	/** The rate at which the player gains speed while on the ground */
 	UPROPERTY(Category = "Ground Movement", EditAnywhere, BlueprintReadWrite)
@@ -88,7 +88,7 @@ public:
 
 	/** The maximum speed the player can achieve while not strafe jumping */
 	UPROPERTY(Category = "Air Movement", EditAnywhere, BlueprintReadWrite)
-	float AirMaxSpeed = 7.f;
+	float AirMaxSpeed = 320.f;
 
 	/**  */
 	UPROPERTY(Category = "Air Movement", EditAnywhere, BlueprintReadWrite)
@@ -96,15 +96,15 @@ public:
 
 	/** The maximum speed the player can achieve when strafing, but not actually strafe jumping */
 	UPROPERTY(Category = "Air Movement", EditAnywhere, BlueprintReadWrite)
-	float AirStrafeSpeed = 4.f;
+	float AirStrafeSpeed = 30.f;
 
 	/** The rate at which the player gains speed to achieve Air Strafe Speed */
 	UPROPERTY(Category = "Air Movement", EditAnywhere, BlueprintReadWrite)
-	float AirStrafeAcceleration = 10.f;
+	float AirStrafeAcceleration = 70.f;
 
 	/** The amount of air control the player has */
 	UPROPERTY(Category = "Air Movement", EditAnywhere, BlueprintReadWrite)
-	float CPMAirControl = 2.f;
+	float CPMAirControl = 150.f;
 
 
 	

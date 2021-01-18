@@ -38,15 +38,6 @@ public:
 	AController* Controller;
 
 public:
-	/* Health of the player */
-	UPROPERTY(Category = "General", EditAnywhere, BlueprintReadWrite)
-	int32 Health = 100;
-
-	/* Armour of the player */
-	UPROPERTY(Category = "General", EditAnywhere, BlueprintReadWrite)
-	int32 Armour = 0;
-
-public:
 
 public:
 	UPROPERTY(Category = "Sounds", EditAnywhere, BlueprintReadWrite)

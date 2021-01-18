@@ -16,6 +16,9 @@ Checkout this video for a preview of the game before cloning / downloading:
 * Editor
 * Steam integration
 
+## Usage
+Simply create a blueprint child of "DefragrPlayer" and drag it into your level.
+
 ## Testing
 Considering this is a game, and cannot be machine tested, testing the mechanics is rather convoluted to ensure the mechanics remain accurate to CPMA.
 
