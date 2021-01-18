@@ -108,13 +108,15 @@ void ADefragrPlayer::UpdateViewingAngles()
 	// Pitch camera up and down
 	if (FirstPersonCameraComponent)
 	{
-		FVector v(0.f, -MouseVelocity.Y, 0.f);
+		MouseVelocity.Y = MouseVelocity.Y * MouseSensY;
+		FVector v(0.f, MouseVelocity.Y, 0.f);
 		FirstPersonCameraComponent->AddLocalRotation(FQuat::MakeFromEuler(v));
 	}
 
 	// Rotate the reference point component
 	if (PlayerForwardRefComponent)
 	{
+		MouseVelocity.X = MouseVelocity.X * MouseSensX;
 		FVector v(0.f, 0.f, MouseVelocity.X);
 		PlayerForwardRefComponent->AddWorldRotation(FQuat::MakeFromEuler(v));
 	}

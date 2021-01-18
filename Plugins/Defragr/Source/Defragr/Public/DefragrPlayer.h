@@ -141,6 +141,14 @@ public:
 	/* Stores relational (to last frame) mouse position */
 	FVector2D MouseVelocity;
 
+	/** Vertical mouse sensititivity - defaults to 2.5 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Input)
+	float MouseSensY = 2.5;
+
+	/** Horizontal mouse sensititivity - defaults to 2.5 */
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Input)
+	float MouseSensX = 2.5;
+
 public:
 	/** The BoxComponent being used for movement collision. Always treated as being vertically aligned in simple collision check functions */
 	UPROPERTY(Category = Character, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
