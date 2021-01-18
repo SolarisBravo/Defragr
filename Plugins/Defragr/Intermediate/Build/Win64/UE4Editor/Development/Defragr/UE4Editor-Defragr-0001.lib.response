@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Defragr-0001.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\elitk\Documents\Unreal Projects\DefragrAlt\Intermediate\Build\Win64\DefragrPluginEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\elitk\Documents\Unreal Projects\DefragrAlt\Plugins\Defragr\Intermediate\Build\Win64\UE4Editor\Development\Defragr\Module.Defragr.cpp.obj"
+"C:\Users\elitk\Documents\Unreal Projects\DefragrAlt\Plugins\Defragr\Intermediate\Build\Win64\UE4Editor\Development\Defragr\Module.Defragr.gen.cpp.obj"
+"C:\Users\elitk\Documents\Unreal Projects\DefragrAlt\Plugins\Defragr\Intermediate\Build\Win64\UE4Editor\Development\Defragr\Default.rc2.res"
+/OUT:"C:\Users\elitk\Documents\Unreal Projects\DefragrAlt\Plugins\Defragr\Intermediate\Build\Win64\UE4Editor\Development\Defragr\UE4Editor-Defragr-0001.lib"
+/INCLUDE:IMPLEMENT_MODULE_Defragr

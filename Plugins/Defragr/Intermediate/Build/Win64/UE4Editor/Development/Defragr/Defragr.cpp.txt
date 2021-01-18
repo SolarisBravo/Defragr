@@ -1,0 +1,2 @@
+C:\Users\elitk\Documents\Unreal Projects\DefragrAlt\Plugins\Defragr\Intermediate\Build\Win64\UE4Editor\Development\Defragr\Definitions.Defragr.h
+C:\Users\elitk\Documents\Unreal Projects\DefragrAlt\Plugins\Defragr\Source\Defragr\Public\Defragr.h
